@@ -16,12 +16,24 @@
 
 ## 安装
 
-### 方式一：本地 marketplace（本仓库）
+### 方式一：从 GitHub 安装（对外推荐）
 
 ```
 ZCode → Plugin Marketplace → Add → Add Plugin Marketplace
-→ 粘贴本仓库根目录（含 marketplace.json）
+→ 粘贴 https://github.com/forrestneo/anti-ai-foolish-zcode
 → Personal → anti-ai-foolish-market → anti-ai-foolish-zcode → Install
+```
+
+ZCode 会把该仓库作为 marketplace 源，读取根目录的 `marketplace.json` 完成安装。GitHub 访问不稳时可在代理环境下操作，或改用方式二。
+
+### 方式二：clone 到本地再 Add
+
+```bash
+git clone https://github.com/forrestneo/anti-ai-foolish-zcode.git
+```
+
+```
+Plugin Marketplace → Add → 粘贴 clone 下来的本地目录
 ```
 
 ### 方式二：如果你在用纯 skill 版

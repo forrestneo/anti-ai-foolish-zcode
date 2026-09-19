@@ -16,12 +16,24 @@ Identical content to the plain skill; only the distribution differs. Pick one �
 
 ## Install
 
-### Local marketplace (this repo)
+### Option 1: from GitHub (recommended for everyone)
 
 ```
 ZCode → Plugin Marketplace → Add → Add Plugin Marketplace
-→ paste this repo root (contains marketplace.json)
+→ paste https://github.com/forrestneo/anti-ai-foolish-zcode
 → Personal → anti-ai-foolish-market → anti-ai-foolish-zcode → Install
+```
+
+ZCode treats the repo as a marketplace source and reads `marketplace.json` at the repo root. If GitHub access is unreliable, use Option 2.
+
+### Option 2: clone locally, then Add
+
+```bash
+git clone https://github.com/forrestneo/anti-ai-foolish-zcode.git
+```
+
+```
+Plugin Marketplace → Add → paste the cloned local directory
 ```
 
 ### If you prefer the plain skill
